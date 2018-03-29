@@ -1,0 +1,15 @@
+{
+	"Public": [
+		"Default",
+		"About",
+		"Login",
+		"UserAccept",
+		"Graphs"
+	],
+	"User": [
+		"Logout",
+		"DataTable",
+		"DataGraph",
+		"UserAdd"
+	]
+}

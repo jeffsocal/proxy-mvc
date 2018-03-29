@@ -1,0 +1,227 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Bungee|Titillium+Web');
+
+body {
+	padding-top: 0;
+}
+
+.scbi-content {
+	padding: 40px 15px;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity = 0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	/* Margin bottom by footer height */
+	background-color: #313131;
+}
+
+body>.container {
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+
+.footer {
+	/* Set the fixed height of the footer here */
+	background-color: #212121;
+	height: 150px;
+}
+
+.footer-midnight {
+	color: #e29a2a !important;
+}
+
+}
+.container .text-muted {
+	margin: 10px 0;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+	padding-bottom: 56.25%;
+}
+
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+	padding-bottom: 75%;
+}
+
+.intrinsic-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.bg-midnight {
+	background-image: none !important;
+	background-color: #212121 !important;
+}
+
+h1 {
+	color: #8496a5;
+	text-shadow: 2px 2px #212121;
+	font-family: 'Titillium Web', cursive;
+}
+
+h2 {
+	color: #8496a5;
+	text-shadow: 2px 2px #212121;
+	font-family: 'Titillium Web', cursive;
+}
+
+h3 {
+	color: #8496a5;
+	text-shadow: 2px 2px #212121;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h4 {
+	color: #8496a5;
+	font-family: 'Titillium Web', cursive;
+}
+
+h5 {
+	color: #8496a5;
+	font-family: 'Titillium Web', cursive;
+}
+
+.text-muted {
+	color: #8496a5 !important;
+}
+
+p {
+	color: #a2afbb;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+	color: #a2afbb;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a.link {
+	color: #c7ced6;
+	text-decoration: underline;
+}
+
+/*New CSS 170304*/
+@media screen and (min-width: 0px) and (max-width: 767px) {
+	.sidebar-module, .sidebar-module-inset {
+		display: none;
+	} /* show it on small screens */
+}
+
+.nav-link {
+	color: #e29a2a !important;
+}
+
+.dropdown-menu {
+	color: #e29a2a !important;
+	background-color: #414141 !important;
+}
+
+.dropdown-item {
+	color: #8496a5 !important;
+	/* 	background-color: #414141 !important; */
+}
+
+.dropdown-header {
+	font-weight: bold;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-brand>img {
+	height: 100%;
+	padding: 1px;
+	width: auto;
+}
+
+/* Other Styles */
+.code {
+	font-family: monospace;
+	margin: 1rem;
+	padding: 10px;
+	overflow: auto;
+	-ms-overflow-style: scrollbar;
+	color: #f4dbb0;
+	background-color: #464646;
+	border-radius: 6px;
+}
+
+.card {
+	background-color: #464646;
+	border-color: #464646;
+	border-radius: 0px;
+	border-width: 5px;
+	margin: 5px;
+}
+
+.card-body {
+	background-color: #464646;
+	border-color: #000000;
+	border-radius: 0px;
+	background-image: url(/media/mb_moon.svg);
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	padding-left: 10px;
+}
+
+.art-image {
+	object-fit: none; /* Do not scale the image */
+	object-position: center; /* Center the image within the element */
+	width: 100%;
+	height: 25%;
+	max-height: 128px;
+}
+
+/* Container holding the image and the text */
+.mb-container {
+	position: relative;
+	text-align: left;
+	color: white;
+}
+
+/* Bottom left text */
+.mb-img-text {
+	position: relative;
+	bottom: 1px;
+	left: 7px;
+}
+
+uid {
+	background-image: url(/media/mb_moon.svg);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	color: #8496a5;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 10pt;
+}

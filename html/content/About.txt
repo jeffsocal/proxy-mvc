@@ -1,0 +1,1 @@
+An approximate MVC functioning web page based on the Bootstrap theme. Simple and (mostly) complete codebase for hosting PHP based web applications on AWS or DigitalOcean resources. This is the functional resource codebase to accompany the proxy_src project.

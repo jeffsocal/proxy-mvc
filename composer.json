@@ -1,0 +1,47 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"ProxyMVC\\" : "src/models/"
+		}
+	},
+
+	"repositories": [
+			{
+					"type": "vcs",
+					"url":  "https://github.com/jeffsocal/proxy-chart"
+			},
+			{
+					"type": "vcs",
+					"url":  "https://github.com/jeffsocal/proxy-html"
+			},
+			{
+					"type": "vcs",
+					"url":  "https://github.com/jeffsocal/proxy-io"
+			},
+			{
+					"type": "vcs",
+					"url":  "https://github.com/jeffsocal/proxy-mysql"
+			},
+			{
+					"type": "vcs",
+					"url":  "https://github.com/jeffsocal/proxy-sci"
+			},
+			{
+					"type": "vcs",
+					"url":  "https://github.com/jeffsocal/proxy-time"
+			}
+	],
+
+	"require" : {
+
+	  "jeffsocal/proxy-chart": "dev-master",
+		"jeffsocal/proxy-html": "dev-master",
+		"jeffsocal/proxy-io": "dev-master",
+		"jeffsocal/proxy-mysql": "dev-master",
+		"jeffsocal/proxy-sci": "dev-master",
+		"jeffsocal/proxy-time": "dev-master",
+
+		"markrogoyski/math-php" : "~0.40",
+		"swiftmailer/swiftmailer" : "~6.0"
+	}
+}
