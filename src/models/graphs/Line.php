@@ -20,7 +20,7 @@ class Line
 
     function __construct()
     {
-        $csv = new ReadDelim('../dat/camera.csv');
+        $csv = new ReadDelim('../dat/test/camera.csv');
         $ply = new Plotly();
         
         $this->imports = $ply->getImports();

@@ -1,14 +1,14 @@
 <?php
 /*
- * Copyright (YYYY) ***YourCompany***. All rights reserved.
+ * Copyright (2018) SoCal Bioinformatics Inc. All rights reserved.
  * This script is the confidential and proprietary product
- * of ***YourCompany***. Any Unauthorized reproduction or
+ * of SoCal Bioinformatics Inc. Any Unauthorized reproduction or
  * transfer of the contents herein is strictly prohibited.
  *
- * AUTH: YourSelf | YourCompany
- * DATE: YYYY.MM.DD
- * OWNER: Whomever
- * PROJECT: YourSite
+ * AUTH: Jeff Jones | SoCal Bioinformatics Inc
+ * DATE: 2018.03.28
+ * OWNER: SoCal Bioinformatics Inc
+ * PROJECT: pelican.socalmetrix.com
  * DESC: The construct for the User Create Invite Page
  */
 
@@ -17,7 +17,6 @@
  */
 use ProxyHTML\Bootstrap;
 use ProxyHTML\Construct;
-use ProxyHTML\IO\Input;
 use ProxyHTML\UserInterface\Forms;
 use ProxyHTML\UserInterface\Navbar;
 use ProxyMVC\user\UserInvite;
@@ -29,19 +28,17 @@ $nav = new Navbar();
 /*
  * CREATE VIEW
  */
-$htm->addToSection("subtitle", $htm->pageheader("Add New User"));
 $htm->addToSection("navbar", $nav->getNavbar());
 $htm->addToSection("footer", $cns->getFooter());
 
 $inv = new UserInvite();
-$frm = new Forms();
-$arg = new Input();
+$frm = new Forms(false);
 
 /*
  * INPUTS
  */
-$arg_e = $arg->getVariable("new_email");
-$arg_s = $arg->getVariable("submit");
+$arg_e = $frm->getVariable("new_email");
+$arg_s = $frm->getVariable("submit");
 
 /*
  * MAIN
@@ -66,7 +63,7 @@ if ($arg_s == 'Go') {
 }
 
 $html = "";
-$html .= $htm->header('Email: use email address');
+$html .= $htm->header('Login ID: invite someone using their email address');
 $html .= $frm->textline("new_email", '', 50);
 $html .= $frm->submit("submit", "Go");
 

@@ -20,7 +20,7 @@ class Regression
 
     function __construct()
     {
-        $csv = new ReadDelim('../dat/cereal.csv');
+        $csv = new ReadDelim('../dat/test/cereal.csv');
         $ply = new Plotly();
         
         $this->imports = $ply->getImports();
