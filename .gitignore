@@ -11,3 +11,10 @@
 # composer.lock
 composer.phar
 /vendor/
+
+# exclude eclipse ide stuff
+.buildpath
+.settings
+.project
+
+

@@ -20,7 +20,7 @@ use ProxyHTML\UserInterface\Viewer;
 use ProxyHTML\UserInterface\Action;
 
 require_once get_include_path() . './vendor/autoload.php';
-require_once get_include_path() . './src/autoload/Functions.php';
+require_once get_include_path() . './src/Autoload/Functions.php';
 /*
  * Logging event key
  */
