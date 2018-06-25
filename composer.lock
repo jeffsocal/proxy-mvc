@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "ab8db462a8553a7e77935c393f37dfa9",
     "content-hash": "f59816f3f50fc42b06f6a009ca3a2480",
     "packages": [
         {
@@ -58,20 +59,20 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09T13:34:57+00:00"
+            "time": "2014-09-09 13:34:57"
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.3",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "1bec00a10039b823cc94eef4eddd47dcd3b2ca04"
+                "reference": "8790f594151ca6a2010c6218e09d96df67173ad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/1bec00a10039b823cc94eef4eddd47dcd3b2ca04",
-                "reference": "1bec00a10039b823cc94eef4eddd47dcd3b2ca04",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/8790f594151ca6a2010c6218e09d96df67173ad3",
+                "reference": "8790f594151ca6a2010c6218e09d96df67173ad3",
                 "shasum": ""
             },
             "require": {
@@ -80,7 +81,7 @@
             },
             "require-dev": {
                 "dominicsayers/isemail": "dev-master",
-                "phpunit/phpunit": "^4.8.35",
+                "phpunit/phpunit": "^4.8.35||^5.7||^6.0",
                 "satooshi/php-coveralls": "^1.0.1"
             },
             "suggest": {
@@ -115,7 +116,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2017-11-15T23:40:40+00:00"
+            "time": "2018-04-10 10:11:19"
         },
         {
             "name": "jeffsocal/proxy-chart",
@@ -123,12 +124,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffsocal/proxy-chart.git",
-                "reference": "d5db206f9e22b0856d84816adcc25cac68924f12"
+                "reference": "3ba180a93da60f394b6a3c7b5fcf0280559e8001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffsocal/proxy-chart/zipball/d5db206f9e22b0856d84816adcc25cac68924f12",
-                "reference": "d5db206f9e22b0856d84816adcc25cac68924f12",
+                "url": "https://api.github.com/repos/jeffsocal/proxy-chart/zipball/3ba180a93da60f394b6a3c7b5fcf0280559e8001",
+                "reference": "3ba180a93da60f394b6a3c7b5fcf0280559e8001",
                 "shasum": ""
             },
             "require": {
@@ -160,7 +161,7 @@
                 "source": "https://github.com/jeffsocal/proxy-chart/tree/master",
                 "issues": "https://github.com/jeffsocal/proxy-chart/issues"
             },
-            "time": "2018-03-29T16:14:10+00:00"
+            "time": "2018-05-31 08:17:03"
         },
         {
             "name": "jeffsocal/proxy-html",
@@ -168,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffsocal/proxy-html.git",
-                "reference": "d41afc14a06c5d3c8c79d4d3c94f8d7d696ee378"
+                "reference": "44f2d2796ba2f8f32e0a2d67609fd1f25979bced"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffsocal/proxy-html/zipball/d41afc14a06c5d3c8c79d4d3c94f8d7d696ee378",
-                "reference": "d41afc14a06c5d3c8c79d4d3c94f8d7d696ee378",
+                "url": "https://api.github.com/repos/jeffsocal/proxy-html/zipball/44f2d2796ba2f8f32e0a2d67609fd1f25979bced",
+                "reference": "44f2d2796ba2f8f32e0a2d67609fd1f25979bced",
                 "shasum": ""
             },
             "require": {
@@ -205,7 +206,7 @@
                 "source": "https://github.com/jeffsocal/proxy-html/tree/master",
                 "issues": "https://github.com/jeffsocal/proxy-html/issues"
             },
-            "time": "2018-04-06T22:55:11+00:00"
+            "time": "2018-05-31 08:17:53"
         },
         {
             "name": "jeffsocal/proxy-io",
@@ -213,12 +214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffsocal/proxy-io.git",
-                "reference": "e1146a18a850b41313539617d30989fb3bd08592"
+                "reference": "0d6d7846532749b2835bee9d6264402a73a51a53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffsocal/proxy-io/zipball/e1146a18a850b41313539617d30989fb3bd08592",
-                "reference": "e1146a18a850b41313539617d30989fb3bd08592",
+                "url": "https://api.github.com/repos/jeffsocal/proxy-io/zipball/0d6d7846532749b2835bee9d6264402a73a51a53",
+                "reference": "0d6d7846532749b2835bee9d6264402a73a51a53",
                 "shasum": ""
             },
             "require": {
@@ -250,7 +251,7 @@
                 "source": "https://github.com/jeffsocal/proxy-io/tree/master",
                 "issues": "https://github.com/jeffsocal/proxy-io/issues"
             },
-            "time": "2018-04-06T22:54:20+00:00"
+            "time": "2018-05-31 08:18:32"
         },
         {
             "name": "jeffsocal/proxy-mysql",
@@ -258,12 +259,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffsocal/proxy-mysql.git",
-                "reference": "e1e593c3c49149a9412654803f3081f15bfb368d"
+                "reference": "542d8aea1068fa9d4e45aca1be1aa02e913ab586"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffsocal/proxy-mysql/zipball/e1e593c3c49149a9412654803f3081f15bfb368d",
-                "reference": "e1e593c3c49149a9412654803f3081f15bfb368d",
+                "url": "https://api.github.com/repos/jeffsocal/proxy-mysql/zipball/542d8aea1068fa9d4e45aca1be1aa02e913ab586",
+                "reference": "542d8aea1068fa9d4e45aca1be1aa02e913ab586",
                 "shasum": ""
             },
             "require": {
@@ -295,7 +296,7 @@
                 "source": "https://github.com/jeffsocal/proxy-mysql/tree/master",
                 "issues": "https://github.com/jeffsocal/proxy-mysql/issues"
             },
-            "time": "2018-04-04T21:02:34+00:00"
+            "time": "2018-04-20 16:02:42"
         },
         {
             "name": "jeffsocal/proxy-sci",
@@ -303,12 +304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jeffsocal/proxy-sci.git",
-                "reference": "91333047a7cb064db7fd2a7004263dc07974e1bd"
+                "reference": "3f6616363877dbd46fe2503ecd85045a2493b811"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jeffsocal/proxy-sci/zipball/91333047a7cb064db7fd2a7004263dc07974e1bd",
-                "reference": "91333047a7cb064db7fd2a7004263dc07974e1bd",
+                "url": "https://api.github.com/repos/jeffsocal/proxy-sci/zipball/3f6616363877dbd46fe2503ecd85045a2493b811",
+                "reference": "3f6616363877dbd46fe2503ecd85045a2493b811",
                 "shasum": ""
             },
             "require": {
@@ -340,7 +341,7 @@
                 "source": "https://github.com/jeffsocal/proxy-sci/tree/master",
                 "issues": "https://github.com/jeffsocal/proxy-sci/issues"
             },
-            "time": "2018-04-06T23:00:07+00:00"
+            "time": "2018-05-31 08:19:17"
         },
         {
             "name": "jeffsocal/proxy-time",
@@ -385,20 +386,20 @@
                 "source": "https://github.com/jeffsocal/proxy-time/tree/master",
                 "issues": "https://github.com/jeffsocal/proxy-time/issues"
             },
-            "time": "2018-03-29T16:21:41+00:00"
+            "time": "2018-03-29 16:21:41"
         },
         {
             "name": "markrogoyski/math-php",
-            "version": "v0.40.0",
+            "version": "v0.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/markrogoyski/math-php.git",
-                "reference": "22b3ec83e0e98484d502eac4a149ddf06c886eaf"
+                "reference": "a86455ce2c350cecbd91830da7828a829a1f6cb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markrogoyski/math-php/zipball/22b3ec83e0e98484d502eac4a149ddf06c886eaf",
-                "reference": "22b3ec83e0e98484d502eac4a149ddf06c886eaf",
+                "url": "https://api.github.com/repos/markrogoyski/math-php/zipball/a86455ce2c350cecbd91830da7828a829a1f6cb4",
+                "reference": "a86455ce2c350cecbd91830da7828a829a1f6cb4",
                 "shasum": ""
             },
             "require": {
@@ -450,7 +451,7 @@
                 "regressions",
                 "statistics"
             ],
-            "time": "2018-03-22T05:06:47+00:00"
+            "time": "2018-05-21 04:07:18"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -505,7 +506,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-09-30T22:39:41+00:00"
+            "time": "2017-09-30 22:39:41"
         }
     ],
     "packages-dev": [],
